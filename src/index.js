@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import 'github-markdown-css/github-markdown.css';
-import 'react-quill/dist/quill.snow.css'; // ✅ 추가
+import 'quill/dist/quill.snow.css';
 import { AuthProvider } from './contexts/AuthContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

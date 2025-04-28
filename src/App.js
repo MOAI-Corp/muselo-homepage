@@ -8,12 +8,11 @@ import Home from './pages/Home';
 import MembershipPage from './pages/Membership';
 import CustomerSupportPage from './pages/CustomerSupportPage';
 import ArtistJoinPage from './pages/ArtistJoinPage';
-
+import 'quill/dist/quill.snow.css';
 import AdminLayout from './admin/components/AdminLayout';
 import AdminLoginPage from './admin/pages/AdminLoginPage';
 import AdminDashboardPage from './admin/pages/AdminDashboardPage';
 import ManagePostsPage from './admin/pages/ManagePostsPage';
-import 'react-quill/dist/quill.snow.css';
 import ManageBannerPage from './admin/pages/ManageBannerPage';
 import ProductList from './admin/pages/ManageProductList';
 import KakaoChatButton from './components/common/KakaoChatButton'; 
@@ -23,6 +22,7 @@ import SignUpPage from './pages/SignUpPage';
 import TermsAgreement from './components/auth/TermsAgreement';
 import WithdrawalCompletePage from './pages/WithdrawalCompletePage';
 import ProtectedRoute from './routes/ProtectedRoute';
+
 
 
 function App() {
